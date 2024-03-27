@@ -14,7 +14,7 @@ let getMovie = () => {
   if (movieName <= 0) {
     result.innerHTML = `<h3 class="msg">Please Enter A Movie Name</h3>`;
   }
-  //If input field is NOT empty77
+  //If input field is NOT empty
   else {
     fetch(url)
       .then(data => data.json())
